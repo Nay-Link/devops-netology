@@ -19,3 +19,9 @@ Repository for DevOps course homework.
 - `*_override.tf.json` — все файлы, имя которых заканчивается на `_override.tf.json`.
 - `.terraformrc` — файл с точным именем `.terraformrc`.
 - `terraform.rc` — файл с точным именем `terraform.rc`.
+
+## Домашнее задание «Основы Git»
+
+Отчёт по выполнению второго домашнего задания со скриншотами:
+
+[Открыть отчёт](homework-02.md)
