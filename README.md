@@ -4,10 +4,18 @@ Repository for DevOps course homework.
 
 ## Terraform .gitignore
 
-The Terraform .gitignore file excludes:
-- local .terraform directories;
-- Terraform state files (*.tfstate);
-- crash log files;
-- variable files (*.tfvars);
-- override files;
-- Terraform CLI configuration files.
+Правила в `terraform/.gitignore` будут игнорировать следующие файлы и каталоги:
+
+- `**/.terraform/*` — всё содержимое каталогов `.terraform`, находящихся на любом уровне вложенности.
+- `*.tfstate` — все файлы, имя которых заканчивается на `.tfstate`.
+- `*.tfstate.*` — все файлы, в имени которых после `.tfstate` есть дополнительный суффикс или расширение.
+- `crash.log` — файл с точным именем `crash.log`.
+- `crash.*.log` — файлы, имя которых начинается с `crash.`, содержит любое значение в середине и заканчивается на `.log`.
+- `*.tfvars` — все файлы, имя которых заканчивается на `.tfvars`.
+- `*.tfvars.json` — все файлы, имя которых заканчивается на `.tfvars.json`.
+- `override.tf` — файл с точным именем `override.tf`.
+- `override.tf.json` — файл с точным именем `override.tf.json`.
+- `*_override.tf` — все файлы, имя которых заканчивается на `_override.tf`.
+- `*_override.tf.json` — все файлы, имя которых заканчивается на `_override.tf.json`.
+- `.terraformrc` — файл с точным именем `.terraformrc`.
+- `terraform.rc` — файл с точным именем `terraform.rc`.
