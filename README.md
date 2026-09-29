@@ -11,3 +11,5 @@ The Terraform .gitignore file excludes:
 - variable files (*.tfvars);
 - override files;
 - Terraform CLI configuration files.
+
+This change was made in the fix branch.
