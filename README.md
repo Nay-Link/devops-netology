@@ -14,3 +14,4 @@ The Terraform .gitignore file excludes:
 
 This change was made in the fix branch.
 PyCharm GUI commit practice.
+Second PyCharm GUI commit.
