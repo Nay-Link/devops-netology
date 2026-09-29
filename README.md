@@ -13,3 +13,4 @@ The Terraform .gitignore file excludes:
 - Terraform CLI configuration files.
 
 This change was made in the fix branch.
+PyCharm GUI commit practice.
